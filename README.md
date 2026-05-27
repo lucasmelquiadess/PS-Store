@@ -75,3 +75,5 @@ docs/
 ## Observações
 
 Este é um projeto independente para fins de estudo. PlayStation, DualSense Edge e imagens de produto pertencem aos seus respectivos donos. As imagens são referenciadas remotamente a partir de assets públicos oficiais da PlayStation.
+
+Lucas Melquiades de Santana Martins
