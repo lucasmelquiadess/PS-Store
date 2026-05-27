@@ -1,0 +1,32 @@
+{
+  "name": "dualsense-edge-redesign",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --configLoader runner",
+    "dev:api": "npm run server:build && node .server-dist/index.js",
+    "build": "tsc --noEmit -p tsconfig.json && npm run server:build && vite build --configLoader runner",
+    "preview": "vite preview --host 127.0.0.1",
+    "server:build": "tsc -p tsconfig.server.json",
+    "start": "node .server-dist/index.js",
+    "test": "npm run test:smoke",
+    "test:smoke": "npm run build && node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "gsap": "3.15.0",
+    "lucide-react": "1.16.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "three": "0.184.0"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.184.1",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "6.0.3",
+    "vite": "8.0.14"
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+.vite-cache/
+.codex-logs/
+.server-dist/
+.data/
+dist/
+build/
+.env
+.env.*
+!.env.example
+coverage/
+*.tsbuildinfo
+*.log
+*.err
+vite.config.js
+vite.config.d.ts
+.DS_Store
