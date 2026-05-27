@@ -1,5 +1,6 @@
 node_modules/
 .vite-cache/
+.vscode-logs/
 .codex-logs/
 .server-dist/
 .data/
